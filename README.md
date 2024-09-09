@@ -1,4 +1,4 @@
-# Diabetes_Prediction
+
 # Diabetes Prediction API
 
 This project provides a FastAPI-based web service for predicting the likelihood of diabetes based on various medical parameters. The API is designed to be simple and easy to use, accepting input data in JSON format and returning predictions as JSON.
