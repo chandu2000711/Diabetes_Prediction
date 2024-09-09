@@ -75,3 +75,32 @@ Example request:
     "DiabetesPedigreeFunction": 0.627,
     "Age": 50
 }
+
+Example response:
+
+{
+    "prediction": "Positive"
+}
+Model Details
+The model used for prediction is a simple Logistic Regression model trained on the popular Diabetes dataset. The features used in the model include:
+
+Pregnancies
+Glucose
+Blood Pressure
+Skin Thickness
+Insulin
+BMI
+Diabetes Pedigree Function
+Age
+Deployment
+The API is deployed on [Platform Name] and can be accessed via the following URL: [Your Deployment URL]
+
+Contributing
+Contributions are welcome! Please feel free to submit a Pull Request or open an Issue.
+
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+
+You can replace the placeholders such as `[Platform Name]` and `[Your Deployment URL]` with the actual details of your deployment. Save this content as `README.md` in your project root directory and commit it to your GitHub repository.
+
