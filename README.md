@@ -76,6 +76,7 @@ Example request:
     "Age": 50
 }
 
+
 Example response:
 
 {
@@ -103,4 +104,3 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 
 You can replace the placeholders such as `[Platform Name]` and `[Your Deployment URL]` with the actual details of your deployment. Save this content as `README.md` in your project root directory and commit it to your GitHub repository.
-
