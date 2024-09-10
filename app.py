@@ -20,6 +20,10 @@ class model_input(BaseModel):
 # loading the saved model
 diabetes_model = pickle.load(open('diabetes_model.sav', 'rb'))
 
+@app.get('/')
+def index():
+    return {'message': 'Welcome to the Diabetes Prediction API'}
+
 @app.post('/diabetes_prediction')
 def diabetes_predd(input_parameters : model_input):
     
