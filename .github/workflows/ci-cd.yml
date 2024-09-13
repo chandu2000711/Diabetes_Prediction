@@ -26,8 +26,8 @@ jobs:
 
     # - name: Run tests
     #   run: |
-    #     source venv/bin/activate
-    #     pytest  # Adjust this line if you're using a different testing framework
+        source venv/bin/activate
+        pytest  # Adjust this line if you're using a different testing framework
 
   deploy:
     runs-on: ubuntu-latest
