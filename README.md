@@ -45,7 +45,7 @@ Follow the instructions below to set up and run the project locally.
     pip install -r requirements.txt
     ```
 
-### Usage
+### Usage..
 
 1. **Run the FastAPI application**:
     ```bash
